@@ -40,9 +40,9 @@ declare(strict_types=1); // blinda o sistema contra misturas acidentais de tipos
     // uma boa prática é utilizar letras maiúsculas para nomear constantes, para diferenciar das variáveis
 
     //Exibir as constantes na tela
-    echo "Valor de PI:  PI <br>";
-    echo "Nome da Empresa: EMPRESA <br>";
-    echo "Site: SITE <br>";
+    echo "Valor de PI: ".PI." <br>";
+    echo "Nome da Empresa: ".EMPRESA." <br>";
+    echo "Site: ".SITE." <br>";
 
     // tentando alterar o valor de uma constante, isso irá gerar um erro, pois constantes não podem ser alteradas
     // PI = 3.14159; // Isso é um erro
@@ -59,7 +59,6 @@ declare(strict_types=1); // blinda o sistema contra misturas acidentais de tipos
     // Exemplo de Interpolação => Utilização de variáveis dentro de um texto, utilizando aspas duplas
     echo "$nome, tem $idade anos e sua altura é $altura metros. <br>"; //forma mais correta de misturar texto e variáveis
     
-
 
     ?>
 

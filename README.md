@@ -136,7 +136,7 @@ O PHP de fato é yma das linguagens de programação mais populares da atualidad
         - PHP Debug => ajuda a encontrar erros de código
         - PHP Cs Fixer => formatação de códigos (Identação)
         - PHP Server => ajuda na criação de um servidor local para PHP
-    - Desabilitamos o PHP Nativo do VsCode ( @builtin PPHP)
+    - Desabilitamos o PHP Nativo do VsCode ( @builtin PHP)
 
 2. Hello World (muito importante)
 
