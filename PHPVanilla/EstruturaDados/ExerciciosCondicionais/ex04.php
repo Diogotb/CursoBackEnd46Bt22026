@@ -1,0 +1,19 @@
+<?php 
+declare(strict_types=1);
+
+// 4: Autenticação de Sistema (Login Múltiplo)
+// Você está fazendo o Back-End de um painel administrativo. O sistema tem dois tipos de usuários que podem acessar a área VIP: "Diretor" ou "Gerente".
+// Crie as variáveis $cargoUsuario (string) e $senhaDigitada (string).
+// Crie uma variável com a senha correta do sistema: $senhaSistema = "SenhaSegura123";.
+// O acesso só é liberado SE a senha estiver correta E o cargo for "Diretor" OU "Gerente".
+// Exiba "Acesso Liberado" ou "Acesso Negado". (Dica: Cuidado com o uso de parênteses para separar o AND do OR).
+
+    $cargoUsuario = "Diretor";
+    $senhaDigitada = "SenhaSegura123";
+    $senhaSistema = "SenhaSegura123";
+    if (($cargoUsuario == "Gerente" || $cargoUsuario == "Diretor" ) && $senhaDigitada == "SenhaSegura123") {
+        echo "Acesso liberado";
+    } else{
+        echo "Acesso negado";
+    }
+?>
