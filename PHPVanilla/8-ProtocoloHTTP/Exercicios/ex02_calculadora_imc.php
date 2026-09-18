@@ -39,6 +39,7 @@ function classificarIMC(float $imc): string
     return "Obesidade";
 }
 
+//handle para o método POST
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $nome = trim((string) ($_POST["nome"] ?? ""));
